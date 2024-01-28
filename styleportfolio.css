@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, section, footer {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+}
+
+section {
+    flex: 1;
+    background-color: #ecf0f1;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-decoration: dotted;
+    margin: 1px;
+    vertical-align: top;
+    text-align: left;
+}
+.haute{
+    display: flex;
+}
+ 
+
+.haute-droite{
+    text-align: right;
+    
+
+}
+.nav{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #99b3cf;
+}
+.nav li{     
+   font-size :20px;
+    display: inline-block;
+    padding: 20px;
+    
+}
+
+.a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bas{
+    text-align: center;
+}
+.none{
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+a:hover{
+    background-color:rgb(89, 199, 218);
+    color: white;
+    font-style: italic;
+}
+.milieu-haut-gauche{
+    width: 500px;
+}
+hr{
+    color:blue;
+}
+
+.milieu-gauche{
+    display: flex;
+    text-align: center;
+    padding-left: 0px;
+}
+.competence{
+padding-left: 0px;
+}
+
+
+.p-footer{
+    font-size: 20px;
+    text-align: center;
+}
+.list li {
+    list-style-type: none;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+}
+.list{
+    display: flex;
+    align-self: center;
+}
+.pres{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #007BFF;
+}
+.b{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2f481f;
+}
+h2{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.img{
+    height: 400px;
+}
+
+footer{
+    background-color: gray;
+    
+    width: 100%;
+    bottom: 0;
+    padding: 1em;
+    background-color: #3498db;
+    color: white;
+    
+
+    
+    
+}
+.list-contact{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+@media screen and  (max-width:768px){
+    .haute{
+        display: block;
+        font-size: 5px;
+    }
+    .milieu-gauche , .competence{
+        padding-left: 0px;
+        display: block;
+        
+        
+    }
+   
+    .list{
+        display: block;
+        align-self: center;
+        padding-left: 30%;
+    }
+   
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

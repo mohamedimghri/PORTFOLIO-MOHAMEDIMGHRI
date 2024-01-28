@@ -152,7 +152,7 @@ footer{
         font-size: 5px;
     }
     .milieu-gauche , .competence{
-        padding-left: 0px;
+        padding-left: 5px;
         display: block;
         
         
@@ -162,6 +162,33 @@ footer{
         display: block;
         align-self: center;
         padding-left: 30%;
+    }
+    .milieu-haut{
+        text-align: center;
+    }
+   
+    @media screen and  (max-width:425px){
+
+        .img{
+            width: 200px;
+        
+        }
+        .milieu-haut{
+            text-align: left;
+        }
+        .competence{
+            
+            padding-left: 0px;
+            margin-left: 0px;
+            display: block;
+            
+        
+        }
+        .list{
+            padding-left: 0px;
+            display: block;
+        }
+
     }
    
 

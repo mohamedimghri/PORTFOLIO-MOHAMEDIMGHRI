@@ -112,7 +112,57 @@ body {
       }
       
      
+      .contact-form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4.3rem;
+      }
+      .contact-form form {
+        position: relative;
+        width: 600px;
+      }
       
+      form input,
+      form textarea {
+        width: 100%;
+        padding: 20px;
+        border: none;
+        outline: none;
+        background: #2b3054;
+        color: white;
+        margin-bottom: 20px;
+        border-radius: 10px;
+      }
+      
+      form input::placeholder,
+      form textarea::placeholder {
+        color: #fcfc;
+        font-size: 15px;
+      }
+      form textarea {
+        resize: none;
+      }
+      
+      form .send-btn {
+        display: inline-block;
+        padding: 11px 25px;
+        background: #2b3054;
+        color: white;
+        border: 2px solid black;
+        border-radius: 8px;
+        font-size: 15px;
+        font-weight: 600;
+        transition: all .6s;
+        width: 30%;
+        text-align: center;
+      }
+      form .send-btn:hover {
+        background: transparent;
+        color: #2b3054;
+        box-shadow: 0 0 20px  #2b3054 ;
+        cursor: pointer;
+      }
 
 @keyframes spring {
     15% {
@@ -132,7 +182,12 @@ body {
       -webkit-transform: scale(1, 1);
     }
   }
-
+h3{
+    font-weight: bold;
+    font-size: 25px;
+    color: #2b3054;
+    text-align: center;
+}
 .milieu-haut-gauche{
     width: 100%;
 }
@@ -274,7 +329,7 @@ footer{
         
         }
         .list-contact{
-        justify-content: right;
+        justify-content:center;
         }
        
         p{
@@ -301,8 +356,14 @@ footer{
             width: 50%;
             text-align: right;
         }
-    }
-   
+        form input{
+            padding: 7px;
+           
+          
+        }
+        form textarea{
+            padding: 4px;
+        }
 
     
 

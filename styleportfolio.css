@@ -156,9 +156,7 @@ footer{
     
     
 }
-.form{
-    display: block;
-}
+
 
 
 @media screen and  (max-width:768px){
@@ -182,10 +180,7 @@ footer{
     .milieu-haut{
         text-align: center;
     }
-    .form{
-        display: block;
-    }
-   
+  
     @media screen and  (max-width:425px){
 
         .img{
@@ -210,10 +205,7 @@ footer{
         p{
             text-align: center;
         }
-        .form{
-            display: block;
-            width: 100%;
-        }
+      
         h1{
             font-size: 25px;
         }

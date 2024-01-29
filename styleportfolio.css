@@ -79,7 +79,16 @@ a:hover{
     font-style: italic;
 }
 .milieu-haut-gauche{
-    width: 500px;
+    width: 100%;
+}
+.milieu-haut-droite{
+    
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 hr{
     color:blue;
@@ -89,6 +98,7 @@ hr{
     display: flex;
     text-align: center;
     padding-left: 0px;
+    justify-content: center;
 }
 .competence{
 padding-left: 0px;
@@ -96,12 +106,12 @@ padding-left: 0px;
 
 
 .p-footer{
-    font-size: 20px;
+    font-size: 10px;
     text-align: center;
 }
 .list li {
     list-style-type: none;
-    width: 200px;
+    width: 100%;
     height: 300px;
     text-align: center;
 }
@@ -144,7 +154,12 @@ footer{
     display: flex;
     list-style-type: none;
     
+    
 }
+.form{
+    display: block;
+}
+
 
 @media screen and  (max-width:768px){
     .haute{
@@ -161,16 +176,20 @@ footer{
     .list{
         display: block;
         align-self: center;
-        padding-left: 30%;
+        padding-left: 0;
+        text-align: center;
     }
     .milieu-haut{
         text-align: center;
+    }
+    .form{
+        display: block;
     }
    
     @media screen and  (max-width:425px){
 
         .img{
-            width: 200px;
+            width: 100%;
         
         }
         .milieu-haut{
@@ -183,6 +202,26 @@ footer{
             display: block;
             
         
+        }
+        .list-contact{
+        justify-content: right;
+        }
+       
+        p{
+            text-align: center;
+        }
+        .form{
+            display: block;
+        }
+        h1{
+            font-size: 25px;
+        }
+        .haute-droite{
+            font-size: 15px;
+        }
+        .nav{
+            font-size: 10px;
+            display: block;
         }
         
 
